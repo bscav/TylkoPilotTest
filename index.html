@@ -101,7 +101,7 @@ preload(
 	$.get('https://bscav.ngrok.io/press/bank/1/2');});
 	
 	$("#next").keydown(function(event){
-	if (event.keycode == 13) {	
+	if (event.key === "ArrowRight") {	
 	$.get('https://bscav.ngrok.io/press/bank/1/2');
 	}
 	});
